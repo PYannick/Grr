@@ -1,0 +1,20 @@
+Package: Grr
+Type: Package
+Title: New data type Grr for dataframe with grouped columns
+Version: 0.1.0
+Author: 
+    c(person(given = "Yannick",
+             family = "Pascaud",
+             role = c("aut", "cre"),
+             email = "yannick.pascaud@free.fr")
+Maintainer: Yannick Pascaud <yannick.pascaud@free.fr>
+Depends: R (>= 3.5.0)
+Description: Create a new data type to store a dataframe with the ability to specify columns group.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    methods
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.1.1
